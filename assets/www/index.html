@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta name="viewport" content="width=320; user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>247-Local-Online-Pickup</title>
+		<link rel="stylesheet" href="master.css" type="text/css" media="screen" title="no title">
+		<link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="my.css" />
+
+		<script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
+		<script type="text/javascript" charset="utf-8" src="main.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+		<script src="my.js"></script>
+
+  </head>
+  <body onload="init();" id="stage" class="theme">
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="b" data-role="header" data-position="fixed">
+                <span class="ui-title">
+                <div style=" text-align:center">
+                    <img style="width: 200px; height: 34px" src="https://www.247-local-online-pickup.com/images/247LogoHeader.gif" />
+                </div>
+                </span>
+            </div>
+            <div data-role="content" style="padding: 15px">
+                <a data-role="button" data-transition="turn" href="#book" data-icon="arrow-r" data-iconpos="left">
+                    Book a Pickup
+                </a>
+                <a data-role="button" data-transition="fade" href="#create" data-icon="arrow-r" data-iconpos="left">
+                    Create an Account
+                </a>
+                <a data-role="button" data-transition="fade" href="#page1" data-icon="arrow-r" data-iconpos="left">
+                    Where's my package?
+                </a>
+                <img src="https://maps.googleapis.com/maps/api/staticmap?center=Wollongong, NSW, Australia&amp;zoom=14&amp;size=288x200&amp;markers=Barnetts Wollongong&amp;sensor=false" width="288" height="200" />
+            </div>
+        </div>
+		
+		<div data-role=page id=book>
+		  <div data-role=header>
+			<h1>Book a Pickup</h1>
+		  </div>
+
+		  <div data-role=content>
+			<p> Window content 2</p>
+		  </div>
+		</div>
+		
+		<div data-role=page id=create>
+		  <div data-role=header>
+			<h1>Create an Account</h1>
+		  </div>
+
+		  <div data-role=content>
+			<p> Window content 2</p>
+		  </div>
+		</div>
+		
+        <script>
+            //App custom javascript
+        </script>
+  </body>
+</html>
